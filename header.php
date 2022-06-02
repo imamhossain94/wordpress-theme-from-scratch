@@ -1,4 +1,3 @@
-<!-- wordpress theme header -->
 <!DOCTYPE html>
 <html>
     <head>
