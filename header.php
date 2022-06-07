@@ -45,6 +45,11 @@ endif;
                 </div>
             </nav>
         </div>
+
+        <div class="col-xs-12 search-form-container">
+            <?php get_search_form(); ?>
+        </div>
+
     </div>
 
 
