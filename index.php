@@ -43,7 +43,6 @@
             <div class="col-xs-6 text-right">
                 <?php previous_posts_link('Newer Posts »'); ?>
             </div>
-
             <?php endif; ?>
 
         </div>
