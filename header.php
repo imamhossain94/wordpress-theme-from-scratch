@@ -20,8 +20,8 @@ endif;
 <div class="container">
     <div class="row">
         <div class="col-xs-12">
-            <nav class="navbar navbar-default">
-                <div class="container-fluid">
+            <nav class="navbar navbar-default navbar-fixed-top">
+                <div class="container">
                     <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
@@ -46,8 +46,12 @@ endif;
             </nav>
         </div>
 
-        <div class="col-xs-12 search-form-container">
-            <?php get_search_form(); ?>
+        <div class="col-xs-12">
+            <div class="search-form-container">
+                <div class="container">
+                    <?php get_search_form(); ?>
+                </div>
+            </div>
         </div>
 
     </div>
