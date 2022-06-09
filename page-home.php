@@ -8,7 +8,7 @@
 
                     <?php
                     $args_cat = array(
-                        'include' => '13, 14, 15'
+                        'include' => '6, 7, 8'
                     );
                     $categories = get_categories($args_cat);
                     $count = 0;
