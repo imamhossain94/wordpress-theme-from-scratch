@@ -87,7 +87,7 @@ add_filter('the_generator', 'awesome_remove_version');
 	==========================================
 */
 function awesome_custom_post_type (){
-
+    // Part-18: awesome_custom_post_type
     $labels = array(
         'name' => 'Portfolio',
         'singular_name' => 'Portfolio',
